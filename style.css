@@ -1,0 +1,200 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: #f8f9ff;
+}
+
+/* Navbar */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 20px 80px;
+
+    background: white;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: 700;
+    color: #5b4bff;
+}
+
+nav ul {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+}
+
+/* Hero */
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 80px;
+}
+
+.hero-text {
+    width: 50%;
+}
+
+.hero-text h1 {
+    font-size: 60px;
+    line-height: 1.2;
+}
+
+.hero-text span {
+    color: #5b4bff;
+}
+
+.hero-text p {
+    margin-top: 20px;
+    color: #666;
+    font-size: 18px;
+    width: 80%;
+}
+
+.buttons {
+    margin-top: 30px;
+}
+
+.primary {
+    background: #5b4bff;
+    color: white;
+
+    border: none;
+
+    padding: 15px 30px;
+
+    border-radius: 10px;
+
+    cursor: pointer;
+
+}
+
+.primary:hover {
+    transform: translateY(-8px);
+}
+
+.secondary:hover {
+    transform: translateY(-8px);
+}
+
+.secondary {
+    background: white;
+
+    border: 2px solid #5b4bff;
+
+    color: #5b4bff;
+
+    padding: 15px 30px;
+
+    border-radius: 10px;
+
+    margin-left: 10px;
+
+    cursor: pointer;
+    transform: translateY(-8px);
+}
+
+#start {
+    border-radius: 20px;
+    background-color: #5b4bff;
+    border: 2px solid #5b4bff;
+    color: #f8f9ff;
+    padding: 10px 10px;
+
+}
+
+.hero-image img {
+    width: 450px;
+}
+
+/* Features */
+
+.features {
+    padding: 80px;
+}
+
+.features h2 {
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 40px;
+}
+
+.feature-grid {
+    display: grid;
+
+    grid-template-columns:
+        repeat(3, 1fr);
+
+    gap: 25px;
+}
+
+.card {
+    background: white;
+
+    padding: 30px;
+
+    border-radius: 15px;
+
+    box-shadow:
+        0 5px 20px rgba(0, 0, 0, 0.08);
+
+    transition: 0.3s;
+}
+
+#xyz {
+    text-align: center;
+    color: black;
+}
+
+.start {
+    background: lavender;
+    color: #5b4bff;
+    padding: 30px;
+
+    border-radius: 15px;
+    text-align: center;
+    size: 20px;
+    box-shadow:
+        0 5px 10px rgba(0, 0, 0, 0.08);
+
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+}
+
+.card h3 {
+    color: #5b4bff;
+    margin-bottom: 10px;
+}
+
+/* Footer */
+
+footer {
+    text-align: center;
+
+    padding: 50px;
+
+    background: white;
+
+    margin-top: 50px;
+}
